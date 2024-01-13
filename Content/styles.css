@@ -1,0 +1,561 @@
+#divlogin {
+    background-color: #EFEFEF;
+    text-align: center;
+    width: 61%;
+    padding-bottom: 35px;
+    border: solid 1px silver;
+    font-family: sans-serif;
+}
+
+.textmiddle {
+    vertical-align: middle;
+}
+
+#welcomenote {
+    float: left;
+    width: 58%;
+    margin-top: 20px;
+    /*margin: 0px 0px 0px 1px !important;*/
+    
+    font-size: 14px;
+    padding-left: 28px;
+    padding-right: 19px;
+}
+
+#login {
+    border: solid 0px green;
+    text-align: center;
+    margin: 0px 0px 0px 238px;
+    height: 55.3%;
+    min-height:200px;
+}
+
+#lbluser {
+    text-align: right;
+    width: 30%;
+    float: left;
+    margin: 0px !important;
+    padding-left: 36px !important;
+    margin-top: 2px !important;
+    font-size: 14px;
+}
+
+#txtuser {
+    text-align: left;
+    width: 0%;
+    float: left;
+    margin: 0px !important;
+    padding-left: 2px !important;
+}
+
+#lblOldpwd {
+    text-align: right;
+    width: 30%;
+    float: left;
+    margin: 0px !important;
+    padding-left: 36px !important;
+    margin-top: 2px !important;
+    font-size: 14px;
+}
+
+#lblpwd {
+    text-align: right;
+    width: 30%;
+    float: left;
+    margin: 0px !important;
+    padding-left: 36px !important;
+    margin-top: 2px !important;
+    font-size: 14px;
+}
+
+#tbxpwd {
+    text-align: left;
+    width: 30%;
+    float: left;
+    margin: 0px !important;
+    padding-left: 2px !important;
+}
+
+#tbxOldpwd {
+    text-align: left;
+    width: 30%;
+    float: left;
+    margin: 0px !important;
+    padding-left: 2px !important;
+}
+
+#loginbtn {
+    text-align: center;
+    width: 100%;
+    margin: 0px !important;
+    padding-left: 0px !important;
+    padding-top: 20px !important;
+}
+
+.loginbtn {
+    height: 30px;
+    width: 60px;
+}
+
+#loginheader {
+    width: 85%;
+    text-align: center;
+    padding: 22px 20px 0px 20px;
+}
+
+#logincontrols {
+    border: solid 0px green;
+    text-align: center;
+    width: 100%;
+    padding: 0px !important;
+    margin-left: 0px !important;
+    padding-bottom: 20px !important;
+}
+
+.paddingZero {
+    padding: 0px 0px 0px 0px;
+}
+
+.divWrapper {
+    width: 100%;
+    min-height: 200px;
+    height:58.8%
+}
+
+.div1Content {
+    float: left;
+    width: 34%;
+    padding-left: 53px;
+    height: 51.8%;
+}
+
+.div2Content {
+    float: right;
+    width: 40%;
+}
+
+.contactline1 {
+    line-height: 10px;
+    font-size: 20px;
+}
+
+.contactline2 {
+    line-height: 10px;
+    font-size: 18px;
+}
+
+.contactline3 {
+    line-height: 10px;
+    font-size: 15px;
+}
+
+.contactline4 {
+    line-height: 10px;
+    padding: 0px 0px 10px 0px;
+    font-size: 15px;
+}
+
+.contactline5 {
+    line-height: 10px;
+    font-size: 15px;
+}
+
+.Boreder1 {
+    border: solid 1px black;
+}
+
+#aboutus {
+    padding-left: 28px;
+}
+
+    #aboutus p {
+        text-align: justify;
+    }
+
+#homeImage img {
+    padding-top: 0px;
+    margin-top: 0px;
+    border: 4px inset black;
+}
+
+#homeImage a {
+    cursor: default;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#homeImage {
+    width: 100%;
+    text-align: center;
+    display: table;
+    height: 58.9%;
+}
+
+.menu {
+    float: left;
+    padding-left: 10px;
+}
+
+html {
+    height: 100%;
+    overflow: auto;
+    width: auto;
+}
+
+#body h3 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    top: 0px;
+    width: auto;
+    margin: 0px 0px 0px 0px; /*max-width: 1340px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#mainForm {
+    height: 100%;
+    min-width: 1340px;
+    margin: 0px 0px 0px 0px;
+}
+
+#header {
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    background-color: #4c8f96;
+    /*height: 20%;*/
+    height: 133px;
+}
+
+#body {
+    width: 85%;
+    margin-left: 13%;
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-bottom: 10px;
+}
+
+#footer {
+    background-color: #4c8f96;
+    border-top: 1px solid #9bd9e0;
+    margin: 0;
+    padding: 0px 0px 0px 0px;
+    bottom: 0;
+    width: 100%;
+    height: 13.9%;
+}
+
+    #footer div p {
+        color: #ededed;
+        font-size: 12px;
+        letter-spacing: 0.05em;
+        margin: 0;
+        /*padding-top: 3%;
+  padding-left: 10%;
+  padding-right: 10%;*/
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+    }
+
+#header .logo {
+    width: 25%;
+    float: left;
+    margin: 0;
+    padding: 20px 0 0 0px;
+    margin-left: 15%;
+}
+
+    #header .logo a {
+        background-color: black;
+        color: #fff;
+        display: block;
+        font-family: 'Arimo-Bold';
+        font-size: 30px;
+        font-weight: normal;
+        height: 130px;
+        line-height: 130px;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        text-decoration: none;
+        text-transform: uppercase;
+        width: 340px;
+        bottom: 40px;
+    }
+
+#menu {
+    margin: 0;
+    padding: 0;
+    z-index: 30;
+    padding-top: 67px !important;
+    float: right;
+    padding-right: 5px;
+}
+
+    #menu li {
+        margin: 0;
+        padding: 3px;
+        list-style: none;
+        float: left;
+        font: bold 11px arial;
+    }
+
+        #menu li a {
+            display: block;
+            margin: 0 1px 0 0;
+            padding: 8px 0px 8px 0px;
+            min-width: 90px;
+            height: 15px;
+            font-size: 15px;
+            background: #000000;
+            color: #FFF;
+            text-align: center;
+            border-radius: 6px;
+            border-radius: 6px\9;
+            border: solid 1px black;
+            text-decoration: none;
+        }
+
+            #menu li a:hover {
+                background: #FFFFFF;
+                color: #000000;
+            }
+
+.selected {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+}
+
+#menu div {
+    position: absolute;
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+    #menu div a {
+        position: relative;
+        margin-top: 2px;
+        padding: 8px 5px;
+        width: 100px;
+        white-space: nowrap;
+        text-align: center;
+        text-decoration: none;
+        background: #393535;
+        color: #FFFFFF;
+        font: 11px arial;
+        border-radius: 6px;
+        border: 1px solid black;
+        z-index: 1000;
+    }
+
+        #menu div a:hover {
+            background: #4C8F96;
+            color: #FFFFFF;
+        }
+
+#body .blog {
+    padding: 0;
+    height: 300px;
+}
+
+#body .content {
+    float: left;
+    margin: 0 35px 0 10px;
+    margin: 20px 35px 0 10px\9;
+    padding: 0;
+    z-index: 8;
+}
+
+
+.innercellpad15 {
+    padding-left: 27px;
+}
+
+#body .content h3 {
+    padding-bottom: 25px;
+    padding-left: 0;
+}
+
+/*#body .contentp {
+    color: black;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 1;
+    padding: 0 0 24px 2px;
+}*/
+ .contentp {
+    color: black;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 1;
+    padding: 0 0 24px 2px;
+}
+
+
+#body .contentputilsoft {
+    color: black;
+    font-size: 13px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0 0 24px 27px;
+}
+
+#body .content p a {
+    text-decoration: underline;
+}
+
+    #body .content p a:hover {
+        color: #4c8f96;
+    }
+
+#body .sidebar {
+    background: url(../images/bg-sidebar.html) repeat-y top left;
+    float: right;
+    margin: 0 10px 82px 0;
+    padding: 0;
+    width: 425px;
+    position: relative\9;
+    top: 10px\9;
+}
+
+    #body .sidebar h3 {
+        background: url(../images/bg-sidebar-heading.html) no-repeat 0 0;
+        color: #2f394e;
+        font-family: 'Comfortaa-Regular';
+        font-size: 20px;
+        font-weight: normal;
+        letter-spacing: 0.1em;
+        margin: 0;
+        padding: 25px 10px;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    #body .sidebar ul {
+        background: url(../images/bg-sidebar-footer.html) no-repeat bottom left;
+        margin: 0;
+        padding: 0 20px 50px;
+    }
+
+        #body .sidebar ul li {
+            list-style: none;
+            margin: 0;
+            padding: 0 0 24px;
+        }
+
+            #body .sidebar ul li span {
+                color: #2f394e;
+                display: block;
+                font-size: 16px;
+                font-weight: bold;
+                letter-spacing: 0.01em;
+                line-height: 24px;
+                margin: 0;
+                padding: 0;
+            }
+
+                #body .sidebar ul li span a {
+                    color: #2f394e;
+                    text-decoration: none;
+                }
+
+                    #body .sidebar ul li span a:hover {
+                        color: #4c8f97;
+                    }
+
+            #body .sidebar ul li p {
+                color: #000;
+                font-size: 13px;
+                line-height: 24px;
+                margin: 0;
+                padding: 0;
+            }
+
+                #body .sidebar ul li p a {
+                    color: #000;
+                    text-decoration: underline;
+                }
+
+                    #body .sidebar ul li p a:hover {
+                        color: #4c8f97;
+                    }
+
+#homemenu {
+    width: 85px;
+}
+
+.Border1 {
+    border: solid 1px black;
+}
+
+#note {
+    font-size: 12px;
+    font-family: sans-serif;
+    color: Blue;
+    width: 422px;
+    padding-left: 15px;
+}
+
+.divMessage {
+    text-align: center;
+    color: red;
+}
+
+.ui-widget.success-dialog {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: .8em;
+}
+
+.ui-widget-content.success-dialog {
+    background: #F9F9F9;
+    border: 1px solid #90d93f;
+    color: #222222;
+}
+
+.ui-dialog.success-dialog {
+    left: 0;
+    outline: 0 none;
+    padding: 0 !important;
+    position: absolute;
+    top: 0;
+}
+
+    .ui-dialog.success-dialog .ui-dialog-content {
+        background: none repeat scroll 0 0 transparent;
+        border: 0 none;
+        overflow: auto;
+        position: relative;
+        padding: 0 !important;
+        margin: 0;
+    }
+
+    .ui-dialog.success-dialog .ui-widget-header {
+        background: #b0de78;
+        border: 0;
+        color: #fff;
+        font-weight: normal;
+    }
+
+    .ui-dialog.success-dialog .ui-dialog-titlebar {
+        padding: 0.1em .5em;
+        position: relative;
+        font-size: 1em;
+    }
+.ui-widget-header {
+
+  background:#4c8f96 !important;
+  
+ 
+  
+}

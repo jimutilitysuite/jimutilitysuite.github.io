@@ -1,0 +1,416 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron_Home {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
+
+.bg {
+    background-image: url('images/utilsoft-image.png');
+    /*background: url('/assets/example/bg_blueplane.jpg') no-repeat center center;*/
+    /*position: fixed;*/
+    width: 100%;
+    height: 350px; /*same height as jumbotron_Home */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: visible;
+    background-size: cover;
+}
+
+.bg_products {
+    /*background-image: url('images/shutterstock_290346557-1000w.png');*/
+    background: url('images/shutterstock_572931961-900w.jpg') no-repeat top center;
+    /*background: url('/assets/example/bg_blueplane.jpg') no-repeat center center;*/
+    /*position: fixed;*/
+    width: 100%;
+    height: 450px; /*same height as jumbotron_Home */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: visible;
+    background-size: cover;
+}
+
+
+.bg_about {
+    /*background-image: url('images/shutterstock_290346557-1000w.png');*/
+    background: url('images/shutterstock_290346557-1000w.png');
+    /*position: fixed;*/
+    width: 100%;
+    height: 450px; /*same height as jumbotron_Home */
+    top: 0;
+    left: 0;
+    z-index: -1;
+    overflow: visible;
+    background-size: cover;
+}
+
+.jumbotron_Home {
+    min-height: 160px;
+    max-height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    background: transparent;
+    width: 100%;
+    /*background: url('images/utilsoft-image.png') no-repeat center center;*/
+    background-image: url('images/utilsoft-image.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 6px;
+}
+
+.jumbotron_forklift {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/forklift-product-jumbotron-background.png');
+    /*background-image: url('images/shutterstock_572931961-900w.jpg');*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.jumbotron_fosms {
+    min-height: 170px;
+    max-height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/fosms_product_page.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-bottom: 2px;
+}
+
+
+
+.jumbotron_fosms_safety {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/safetyJumbotron.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2px;
+}
+
+
+
+.jumbotron_fosms_field_equipment {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/fieldEquipmentJumbotron.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2px;
+}
+
+.jumbotron_fosms_revenue_protection {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/revenueProtectionJumbotron.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2px;
+}
+
+.jumbotron_fosms_incident_reporting {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/incidentreportingJumbotron.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2px;
+}
+
+
+.jumbotron_fosms_certification {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/certificationJumbotron.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2px;
+}
+
+.jumbotron_fosms_hazard {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    border-radius: 6px;
+    width: 100%;
+    background-image: url('images/hazardJumbotron.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 2px;
+}
+
+.jumbotron_about {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    background-image: url('images/about-jumbotron-background.png');
+    /*background-image: url('images/shutterstock_290346557-1000w.png');*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-clip: border-box;
+    width: 100%;
+    border-radius: 6px;
+    vertical-align: bottom;
+}
+
+.jumbotron_news {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    background-image: url('images/news-jumbotron.jpg');
+    /*background-image: url('images/shutterstock_290346557-1000w.png');*/
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-clip: border-box;
+    width: 100%;
+    border-radius: 6px;
+    vertical-align: bottom;
+}
+
+
+
+.jumbotron_contact {
+    height: 350px;
+    color: white;
+    text-shadow: #444 0 1px 1px;
+    background-image: url('images/ContactJumbotron.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    border-radius: 6px;
+}
+
+
+
+.client_image {
+    /*width:50%;*/
+    height: 50px;
+    width: auto;
+}
+
+.client_image2 {
+    /*width:50%;*/
+    height: 80px;
+}
+
+
+.contributor_image {
+    /*width:50%;*/
+    height: 75px;
+    width: auto;
+}
+
+
+.module_image {
+    /*width:50%;*/
+    height: 50%;
+    width: auto;
+}
+
+.customer_image {
+    width: 80%;
+}
+
+.content_client_slideshow {
+    margin: auto;
+    padding: 20px;
+    width: 100%;
+}
+
+
+.panel-footer {
+    background-color: #1c2f46;
+    color: white;
+}
+
+
+
+.company-slideshow {
+}
+
+.btn-utilsoft-menu {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.428571429;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.btn-primary-utilsoft-menu {
+    color: #ffffff;
+    background-color: #428bca;
+    border-color: #357ebd;
+}
+
+.module-tab-width {
+    width: 20%;
+    align-content: center;
+}
+
+.module-tab-image-width {
+    width: 20px;
+    height: 20px;
+}
+
+/** {
+   font-size: 14px;
+   line-height: 2;
+}*/
+
+.centered-content {
+    margin: auto;
+    max-width: 300px;
+}
+
+.news-image {
+    border-radius: 5px;
+    border: thin;
+    width: 150px;
+    height: 200px;
+}
+
+/*Media query css for all devices*/
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+    .jumbotron_Home, .jumbotron_forklift, .jumbotron_fosms, .jumbotron_fosms_safety,
+    .jumbotron_fosms_field_equipment, .jumbotron_fosms_revenue_protection, .jumbotron_fosms_incident_reporting, .jumbotron_fosms_certification .jumbotron_fosms_hazard, .jumbotron_about, .jumbotron_news, .jumbotron_contact {
+        height: 350px;
+    }
+}
+
+/* 
+  ##Device = Laptops, Desktops, Tablets
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+    .jumbotron_Home, .jumbotron_forklift, .jumbotron_fosms, .jumbotron_fosms_safety,
+    .jumbotron_fosms_field_equipment, .jumbotron_fosms_revenue_protection, .jumbotron_fosms_incident_reporting, .jumbotron_fosms_certification .jumbotron_fosms_hazard, .jumbotron_about, .jumbotron_news, .jumbotron_contact {
+        height: 350px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+    .jumbotron_Home, .jumbotron_forklift, .jumbotron_fosms, .jumbotron_fosms_safety,
+    .jumbotron_fosms_field_equipment, .jumbotron_fosms_revenue_protection, .jumbotron_fosms_incident_reporting, .jumbotron_fosms_certification .jumbotron_fosms_hazard, .jumbotron_about, .jumbotron_news, .jumbotron_contact {
+        height: 220px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .jumbotron_Home, .jumbotron_forklift, .jumbotron_fosms, .jumbotron_fosms_safety,
+    .jumbotron_fosms_field_equipment, .jumbotron_fosms_revenue_protection, .jumbotron_fosms_incident_reporting, .jumbotron_fosms_certification .jumbotron_fosms_hazard, .jumbotron_about, .jumbotron_news, .jumbotron_contact {
+        height: 230px;
+    }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .jumbotron_Home, .jumbotron_forklift, .jumbotron_fosms, .jumbotron_fosms_safety,
+    .jumbotron_fosms_field_equipment, .jumbotron_fosms_revenue_protection, .jumbotron_fosms_incident_reporting, .jumbotron_fosms_certification .jumbotron_fosms_hazard, .jumbotron_about, .jumbotron_news, .jumbotron_contact {
+        height: 210px;
+    }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+    .jumbotron_Home, .jumbotron_forklift, .jumbotron_fosms, .jumbotron_fosms_safety,
+    .jumbotron_fosms_field_equipment, .jumbotron_fosms_revenue_protection, .jumbotron_fosms_incident_reporting, .jumbotron_fosms_certification .jumbotron_fosms_hazard, .jumbotron_about, .jumbotron_news, .jumbotron_contact {
+        height: 115px;
+    }
+}
+/*Media query css for all devices*/
+
+
